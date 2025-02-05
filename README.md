@@ -1,2 +1,2 @@
-# Windills
+# Windmills
 Windmühle mit LED
