@@ -9,7 +9,7 @@ public class WindmillDynamicSpeed : MonoBehaviour
     [SerializeField] private float maxRotationSpeed = 300f; // Maximum speed
     [SerializeField] private float acceleration = 50f; // Speed increase per second
     [SerializeField] private float deceleration = 30f; // Speed decrease per second
-    private float currentSpeed = 0f; // Current rotation speed
+    public float currentSpeed = 0f; // Current rotation speed
 
     private void Update()
     {
